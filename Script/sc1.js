@@ -4,8 +4,8 @@ window.onload = function() {
 $(function () {
 var body = $('body');
 var backgroundImages = [
-' url(Images/Mario64_3.jpeg) ',
-' url(Images/Mario64_2.jpeg) '];
+' url(LayanAbdullah.github.io/Images/Mario64_3.jpeg) ',
+' url(LayanAbdullah.github.io/Images/Mario64_2.jpeg) '];
 
 var current = 0;
 
