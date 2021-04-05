@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Super Mario 64</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style2.css">  
+    <link rel="stylesheet" href="style2.css">
     <script src="jquery-3.6.0.js"></script>
 
-    </head>
+</head>
 
 <body>
     <script>
-        window.onload = function() {
+        window.onload = function () {
             document.getElementById("my_audio").play();
         }
         $(function () {
-        var body = $('body');
-        var backgroundImages = [
-        ' url(Images/Mario64_3.jpeg) ',
-        ' url(Images/Mario64_2.jpeg) '];
+            var body = $('body');
+            var backgroundImages = [
+                ' url(Images/Mario64_3.jpeg) ',
+                ' url(Images/Mario64_2.jpeg) '];
 
-        var current = 0;
+            var current = 0;
 
-        function nextBackground() {
-        body.css(
-        'background-image',
-        backgroundImages[current = ++current % backgroundImages.length]);
+            function nextBackground() {
+                body.css(
+                    'background-image',
+                    backgroundImages[current = ++current % backgroundImages.length]);
 
-        setTimeout(nextBackground, 10000); //automatically change background-image every 5 seconds
-        }
-        setTimeout(nextBackground, 10000); //automatically change background-image every 5 seconds
-        body.css('background-image', backgroundImages[0]);
+                setTimeout(nextBackground, 10000); //automatically change background-image every 5 seconds
+            }
+            setTimeout(nextBackground, 10000); //automatically change background-image every 5 seconds
+            body.css('background-image', backgroundImages[0]);
         });
     </script>
     <audio id="my_audio" src="Music/Mario64_Title_Theme.mp3"></audio>
@@ -42,140 +43,148 @@
                     MARIO ALL STAR
                 </a>
             </div>
-                </div>
-                    <nav>
-                        <a href="index.html">home</a> 
-                        <a href="SuperMario64.html">Super Mario 64</a> 
-                        <a href="MarioOdyssey.html">Mario Odyssey (soon)</a> 
-                    </nav>
-                </div>
+        </div>
+        <nav>
+            <a href="Home.html">home</a>
+            <a href="SuperMario64.html">Super Mario 64</a>
+            <a href="MarioOdyssey.html">Mario Odyssey (soon)</a>
+        </nav>
+        </div>
     </header>
-    
+
     <br><br><br><br><br><br>
 
-    <div class="wrapper"><!-- WRAPPER CLASS -->
+    <div class="wrapper">
+        <!-- WRAPPER CLASS -->
 
-    <!--  1 -->
-    <div class="maincontainer">
+        <!--  1 -->
+        <div class="maincontainer">
             <div class="thecard">
-                <div class="thefront"> 
-                    Stage 1: Bob-omb Battlefield <img src="Images/Levels/1Bob-ombBattlefield.png" width="190">  Big Bob-omb on the Summit 
+                <div class="thefront">
+                    Stage 1: Bob-omb Battlefield <img src="Images/Levels/1Bob-ombBattlefield.png" width="190"> Big
+                    Bob-omb on the Summit
                 </div><!-- End of the front -->
 
-                <dev class="theback">   
-                    <p>to get the first star you need to Run all the way up the mountain 
-                    and defeat King Bob-omb. How? Grab him at 
-                    his back and throw him 3 times!! </p>
-                    <p><br>for mmore detailes check this 
+                <dev class="theback">
+                    <p>to get the first star you need to Run all the way up the mountain
+                        and defeat King Bob-omb. How? Grab him at
+                        his back and throw him 3 times!! </p>
+                    <p><br>for mmore detailes check this
                         <a href="www.youtube.com"> Video.</a>
-                        <br><br> if you  got this star click here!
+                        <br><br> if you got this star click here!
                     </p>
                 </dev><!-- End of the back -->
             </div>
-    </div><!--  End 1 -->
+        </div><!--  End 1 -->
 
-     <!--  2 -->
-     <div class="maincontainer">
-        <div class="thecard">
-            <div class="thefront"> 
-                Stage 1: Bob-omb Battlefield <img src="Images/Levels/1Bob-ombBattlefield.png" width="190"> Footrace with Koopa the Quick
-            </div><!-- End of the front -->
+        <!--  2 -->
+        <div class="maincontainer">
+            <div class="thecard">
+                <div class="thefront">
+                    Stage 1: Bob-omb Battlefield <img src="Images/Levels/1Bob-ombBattlefield.png" width="190"> Footrace
+                    with Koopa the Quick
+                </div><!-- End of the front -->
 
-            <dev class="theback">   
-                <p>to get the secound star you need to Race with Giant Koopa - the big turtle, 
-                all the way up to the top of the mountain.
-                </p>
-                
-                <p><br>for mmore detailes check this 
-                    <a href="www.youtube.com"> Video.</a>
-                    <br><br> if you  got this star click here!
-                </p>
-            </dev><!-- End of the back -->
-        </div>
-</div><!--  End 2 -->
-    
+                <dev class="theback">
+                    <p>to get the secound star you need to Race with Giant Koopa - the big turtle,
+                        all the way up to the top of the mountain.
+                    </p>
+
+                    <p><br>for mmore detailes check this
+                        <a href="www.youtube.com"> Video.</a>
+                        <br><br> if you got this star click here!
+                    </p>
+                </dev><!-- End of the back -->
+            </div>
+        </div><!--  End 2 -->
+
         <!--  3 -->
         <div class="maincontainer">
             <div class="thecard">
-                <div class="thefront"> 
-                    Stage 1: Bob-omb Battlefield <img src="Images/Levels/1Bob-ombBattlefield.png" width="190"> Shoot to the Island in the Sky
+                <div class="thefront">
+                    Stage 1: Bob-omb Battlefield <img src="Images/Levels/1Bob-ombBattlefield.png" width="190"> Shoot to
+                    the Island in the Sky
                 </div><!-- End of the front -->
-  
-                <dev class="theback">   
+
+                <dev class="theback">
                     <p>Shoot Mario to the floating island and Mario will find the star in the yellow ! box.
                     </p>
-                    
-                    <p><br>for mmore detailes check this 
+
+                    <p><br>for mmore detailes check this
                         <a href="www.youtube.com"> Video.</a>
-                        <br><br> if you  got this star click here!
+                        <br><br> if you got this star click here!
                     </p>
                 </dev><!-- End of the back -->
             </div>
-    </div><!--  End 3 -->
-    <br>
-    
-    <!--  4 -->
-    <div class="maincontainer">
-        <div class="thecard">
-            <div class="thefront"> 
-                Stage 2: Whomp's Fortress <img src="Images/Levels/2WhompsFortress.png" width="190"> Chip off Whomp's Block
-            </div><!-- End of the front -->
+        </div><!--  End 3 -->
+        <br>
 
-            <dev class="theback">   
-                <p>To get the first star in this stage you need to defeat the big Whomp at 
-                the top of the whole fortress. Pound on his back 3 times when he falls down.
-                </p>
-                <p><br>for mmore detailes check this 
-                    <a href="www.youtube.com"> Video.</a>
-                    <br><br> if you  got this star click here!
-                </p>
-            </dev><!-- End of the back -->
-        </div>
-</div><!--  End 4 -->
+        <!--  4 -->
+        <div class="maincontainer">
+            <div class="thecard">
+                <div class="thefront">
+                    Stage 2: Whomp's Fortress <img src="Images/Levels/2WhompsFortress.png" width="190"> Chip off Whomp's
+                    Block
+                </div><!-- End of the front -->
 
-      <!--  5 -->
-      <div class="maincontainer">
-        <div class="thecard">
-            <div class="thefront"> 
-                Stage 2: Whomp's Fortress <img src="Images/Levels/2WhompsFortress.png" width="190"> To the Top of the Fortress
-            </div><!-- End of the front -->
+                <dev class="theback">
+                    <p>To get the first star in this stage you need to defeat the big Whomp at
+                        the top of the whole fortress. Pound on his back 3 times when he falls down.
+                    </p>
+                    <p><br>for mmore detailes check this
+                        <a href="www.youtube.com"> Video.</a>
+                        <br><br> if you got this star click here!
+                    </p>
+                </dev><!-- End of the back -->
+            </div>
+        </div><!--  End 4 -->
 
-            <dev class="theback">   
-                <p>To get the secound star in this stage you need to Go to the top of the tower, 
-                  which is at the top of the whole fortress.
-                </p>
-                <p><br>for mmore detailes check this 
-                    <a href="www.youtube.com"> Video.</a>
-                    <br><br> if you  got this star click here!
-                </p>
-            </dev><!-- End of the back -->
-        </div>
-</div><!--  End 5 -->
+        <!--  5 -->
+        <div class="maincontainer">
+            <div class="thecard">
+                <div class="thefront">
+                    Stage 2: Whomp's Fortress <img src="Images/Levels/2WhompsFortress.png" width="190"> To the Top of
+                    the Fortress
+                </div><!-- End of the front -->
 
-      <!--  6 -->
-      <div class="maincontainer">
-        <div class="thecard">
-            <div class="thefront"> 
-                Stage 2: Whomp's Fortress <img src="Images/Levels/2WhompsFortress.png" width="190"> Shoot into the Wild Blue
-            </div><!-- End of the front -->
+                <dev class="theback">
+                    <p>To get the secound star in this stage you need to Go to the top of the tower,
+                        which is at the top of the whole fortress.
+                    </p>
+                    <p><br>for mmore detailes check this
+                        <a href="www.youtube.com"> Video.</a>
+                        <br><br> if you got this star click here!
+                    </p>
+                </dev><!-- End of the back -->
+            </div>
+        </div><!--  End 5 -->
 
-            <dev class="theback">   
-                <p>To get the third star in this stage you need to Talk to Red Bob-omb who is 
-                    near the pool to release the cannon. Shot Mario to the platform under the pole to take the star.
-                </p>
-                <p><br>for mmore detailes check this 
-                    <a href="www.youtube.com"> Video.</a>
-                    <br><br> if you  got this star click here!
-                </p>
-            </dev><!-- End of the back -->
-        </div>
-</div><!--  End 6 -->
+        <!--  6 -->
+        <div class="maincontainer">
+            <div class="thecard">
+                <div class="thefront">
+                    Stage 2: Whomp's Fortress <img src="Images/Levels/2WhompsFortress.png" width="190"> Shoot into the
+                    Wild Blue
+                </div><!-- End of the front -->
+
+                <dev class="theback">
+                    <p>To get the third star in this stage you need to Talk to Red Bob-omb who is
+                        near the pool to release the cannon. Shot Mario to the platform under the pole to take the star.
+                    </p>
+                    <p><br>for mmore detailes check this
+                        <a href="www.youtube.com"> Video.</a>
+                        <br><br> if you got this star click here!
+                    </p>
+                </dev><!-- End of the back -->
+            </div>
+        </div><!--  End 6 -->
 
 
     </div><!-- END OF  WRAPPER CLASS -->
 
-<br><br><br><br><br>
+    <br><br><br><br><br>
 
     <div class="footer"> For More Information Visit <a href="https://www.nintendo.com/">The Nintendo Website</a> </div>
 </body>
+
 </html>

@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Mario Odyssey</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styleHeaderAndFotter.css"> 
+    <link rel="stylesheet" href="styleHeaderAndFotter.css">
     <script src="jquery-3.6.0.js"></script>
 
-    
+
 </head>
+
 <body>
-    <script type="text/javascript"> 
-    
-        window.onload = function() {
+    <script type="text/javascript">
+
+        window.onload = function () {
             document.getElementById("my_audio").play();
         }
-            $(function () {
-        var body = $('body');
-        var backgroundImages = [
-        ' url(Images/MarioOdyssey.png) ',
-        ' url(Images/Odyssey_1.jpeg) '];
+        $(function () {
+            var body = $('body');
+            var backgroundImages = [
+                ' url(Images/MarioOdyssey.png) ',
+                ' url(Images/Odyssey_1.jpeg) '];
 
-        var current = 0;
+            var current = 0;
 
-        function nextBackground() {
-        body.css(
-        'background-image',
-        backgroundImages[current = ++current % backgroundImages.length]);
+            function nextBackground() {
+                body.css(
+                    'background-image',
+                    backgroundImages[current = ++current % backgroundImages.length]);
 
-        setTimeout(nextBackground, 2000); //automatically change background-image every 5 seconds
-        }
-        setTimeout(nextBackground, 2000); //automatically change background-image every 5 seconds
-        body.css('background-image', backgroundImages[0]);
+                setTimeout(nextBackground, 2000); //automatically change background-image every 5 seconds
+            }
+            setTimeout(nextBackground, 2000); //automatically change background-image every 5 seconds
+            body.css('background-image', backgroundImages[0]);
         });
     </script>
     <audio id="my_audio" src="Music/Odyssey_First Takeoff_.mp3"></audio>
-    
-    
+
+
 
 
     <header>
@@ -46,17 +48,20 @@
                     MARIO ALL STAR
                 </a>
             </div>
-                </div>
-                    <nav>
-                        <a href="index.html">home</a> 
-                        <a href="SuperMario64.html">Super Mario 64</a> 
-                        <a href="MarioOdyssey.html">Mario Odyssey (soon)</a> 
-                    </nav>
-                </div>
+        </div>
+        <nav>
+            <a href="Home.html">home</a>
+            <a href="SuperMario64.html">Super Mario 64</a>
+            <a href="MarioOdyssey.html">Mario Odyssey (soon)</a>
+        </nav>
+        </div>
     </header>
-<div> <br><br><br> <br> <br> <h1>Comming Soon</h1></div>
-    
+    <div> <br><br><br> <br> <br>
+        <h1>Comming Soon</h1>
+    </div>
+
 
     <div class="footer"> For More Information Visit <a href="https://www.nintendo.com/">The Nintendo Website</a> </div>
 </body>
+
 </html>
